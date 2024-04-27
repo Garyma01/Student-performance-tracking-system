@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrackSelf</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  </head>
+  <body>
+
+    <header>
+      <a href="#" class="brand">TrackSelf</a>
+      <div class="menu-btn"></div>
+      <div class="navigation">
+        <div class="navigation-items">
+          <!-- <a href="../html/index.html">Home</a> -->
+          <a href="index.html">Home</a>
+            <a href="pie.php">Performance</a>
+            <a href="amountofsyllabus.php">Syllabus Covered</a>
+            
+            <a href="conceptsgraph.php">Check Concepts</a>
+            <a href="nnewsol.php">Solutions</a>
+            <a href="references.php">References</a>
+            <a href="profile.php">Profile</a>
+
+          
+        </div>
+      </div>
+    </header>
+
+    <section class="home">
+      <video class="video-slide active" src="1.mp4" autoplay muted loop></video>
+      <video class="video-slide" src="2.mp4" autoplay muted loop></video>
+      <video class="video-slide" src="3.mp4" autoplay muted loop></video>
+      <video class="video-slide" src="4.mp4" autoplay muted loop></video>
+      <!-- <video class="video-slide" src="11.mp4" autoplay muted loop></video> -->
+      <div class="content active">
+        <h1>Personalized <br><span>Learning</span></h1>
+        <p>Customize your learning according to your strengths, needs, skills, and interests.
+               </p>
+        <!-- <a href="#quiz">Get Help</a> -->
+        <a href="signup.php">Sign Up</a>
+        <a href="signin.php">Sign in</a>
+      </div>
+      <div class="content" >
+        <h1>Quiz<br><span></span></h1>
+        <p>Shared housing homelessness occurs when individuals or families are 
+          forced to live with others due to the inability to afford their own housing. 
+        </p>
+         <a href="nnew.php">Select Domain</a>
+      </div>
+      <div class="content">
+        <h1>Performance<br><span></span></h1>
+        <p>Set goals for your performance and track your progress over time to stay motivated and focused. </p>
+            <a href="pie.php">Track your Performance</a>
+      </div>
+      <div class="content">
+        <h1>References<br><span></span></h1>
+        <p> Get references from the Books to transform the way to learn.</p>
+             <a href="references.php">Get Help</a>
+      </div>
+      <!-- <div class="content">
+        <h1>Statistics<br><span> </span></h1>
+        <p>Statistics showing the number of homeless population in various states of India </p>
+             <a href="../css/search.html">View</a>
+      </div> -->
+      <div class="media-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+      <div class="slider-navigation">
+        <div class="nav-btn active"></div>
+        <div class="nav-btn"></div>
+        <div class="nav-btn"></div>
+        <div class="nav-btn"></div>
+        <!-- <div class="nav-btn"></div> -->
+      </div>
+    </section>
+
+    <script type="text/javascript">
+    //Javacript for responsive navigation menu
+    const menuBtn = document.querySelector(".menu-btn");
+    const navigation = document.querySelector(".navigation");
+
+    menuBtn.addEventListener("click", () => {
+      menuBtn.classList.toggle("active");
+      navigation.classList.toggle("active");
+    });
+
+    //Javacript for video slider navigation
+    const btns = document.querySelectorAll(".nav-btn");
+    const slides = document.querySelectorAll(".video-slide");
+    const contents = document.querySelectorAll(".content");
+
+    var sliderNav = function(manual){
+      btns.forEach((btn) => {
+        btn.classList.remove("active");
+      });
+
+      slides.forEach((slide) => {
+        slide.classList.remove("active");
+      });
+
+      contents.forEach((content) => {
+        content.classList.remove("active");
+      });
+
+      btns[manual].classList.add("active");
+      slides[manual].classList.add("active");
+      contents[manual].classList.add("active");
+    }
+
+    btns.forEach((btn, i) => {
+      btn.addEventListener("click", () => {
+        sliderNav(i);
+      });
+    });
+    </script>
+
+  </body>
+</html>
+      
