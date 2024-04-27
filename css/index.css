@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  background-color: #cde2f1;
+  background-color: rgb(244, 97, 92);
+  /* color: white; 
+  
+}
+
+a{                                       /*For removing undeline from anchor tag*/
+    text-decoration: none;
+  }
+  
+  /* button */
+  .button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #4b71d0;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 500px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+  .title{
+      background-color: #4b71d0;
+      font-size: 28px;
+    padding: 35px;
+    color: white;
+    font-weight: bold;
+      
+  }
+  .button3 {
+      border: none;
+      color: white;
+      padding: 10px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+      cursor: pointer;
+  }
+  .button3 {
+      background-color: white; 
+      color: white; 
+      /* border: 2px solid #f4e542; */
+      background-color: #e77474;
+      border-radius: 5px;
+  }
+  
+  .button3:hover {
+      background-color: #f4e542;
+      color: Black;
+  }
+
+  .buttonskip {
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.buttonskip {
+    background-color: white; 
+    color: white; 
+    /* border: 2px solid #f4e542; */
+    background-color: #4dc06a;
+    border-radius: 5px;
+}
+
+.buttonsave {
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 0px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.buttonsave{
+  background-color: white; 
+  color: white; 
+  /* border: 2px solid #f4e542; */
+  background-color: #df5bc9;
+  border-radius: 5px;
+}
+
+.buttonsave:hover {
+  background-color: #f4e542;
+  color: Black;
+}
+
+.buttonskip:hover {
+    background-color: #f4e542;
+    color: Black;
+}
+
+  
+.quit {
+  border: none;
+  /* color: white; */
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block; 
+  font-size: 16px; 
+  margin: 4px 2px;
+  margin-left: 1360px;
+  /* margin-top:0px; */
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s; 
+  cursor: pointer;
+} 
+
+
+.quit {
+  /* background-color: white; 
+  color: white;  */
+  border: 2px solid #190eaa; background-color: #4b71d0;
+  border-radius: 5px;
+}
+
+.quit:hover {
+  background-color: #f4e542;
+  color: Black;
+} 
+
+  /* extra */
+  

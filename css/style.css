@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  /* background-color: #cde2f1; */
+   color: white; 
+}
+
+a{                                       /*For removing undeline from anchor tag*/
+    text-decoration: none;
+}
+
+body{                                   /*For background color*/
+    background-color:#cde2f1; 
+    font-family: sans-serif;
+} 
+
+.BACK{                                  /*For back button*/
+     position: fixed;                  /* It is positioned relative to the initial containing block */
+     bottom: 10px;
+     left:10px;
+     width: 90px;
+     height: 25px;
+     font-size: 20px;
+     font-family: lato;
+     background-color:lightcoral; 
+     color: black;
+     box-shadow: 2px 2px lightgrey;
+     border-radius: 5px;
+     text-align: center;
+     padding: 5px;
+ }
+ .BACK1{                                  /*For back button*/
+    position: fixed;                  /* It is positioned relative to the initial containing block */
+    /* bottom: 10px; */
+    margin-top: 13px;
+    margin-left: 1100px;
+    /* left:10px; */
+    width: 90px;
+    height: 25px;
+    font-size: 20px;
+    font-family: lato;
+    background-color:rgb(128, 163, 240); 
+    color: black;
+    box-shadow: 2px 2px lightgrey;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+}
+
+ .backgroundimage{                       /* For background image on index page */
+    width: 100%;
+    height: 100%;
+    margin:-10px;
+    background-image:url('https://drive.google.com/uc?export=view&id=1_gwlp0cUwZCjgFxPwb5dEpgWh1fyOjjF');
+    background-size: cover; 
+    filter: brightness(100%);
+    filter: contrast(90%);
+    text-align: center;
+}
+
+ .header{                              /*For alignment of image in sign in and heading in sign up*/
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px; 
+}
+
+.header1{                                 /*for h1 in sign in page*/
+    margin-top: 1px;
+    color:white;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3{                                       /*For heading h3*/
+    color:black;
+    font-family: lato;
+    text-align: center;
+}
+
+h1{                                      /*For heading h1*/
+    padding-top: 15px;
+    color:white;
+    /* background-color: aqua; */
+}
+
+h2{                                      /* For heading h2 */
+    display: block;
+    background-color: seagreen;
+    text-align: center;
+    font-family:sans-serif;
+}
+
+.main{                                 /*for content of sign in & sign up*/
+    text-align: center;
+}
+
+.main input{                   /*for input */
+    margin-bottom: 20px;
+    width: 350px;
+    height: 30px;
+     box-sizing:border-box ;         /*The width and height properties include the content, padding, and border  */
+    font-size: large;
+    color: red;
+}
+
+
+.sign-in{                      /*for sign-in button*/
+    width:120px;
+    height: 30px;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+    padding: 3px;
+}
+
+.container{                           /*For making outer box in sign in and sign up*/ 
+    width: 480px;
+    margin-top:80px ;
+     margin-left: 470px;
+    border-radius: 25px; 
+    background-color:rgba(0, 0, 255, 0.315) ; 
+    height: 510px;  
+}
+.container10{                           /*For making outer box in sign in and sign up*/ 
+    width: 480px;
+    margin-top:80px ;
+     margin-left: 470px;
+    border-radius: 25px; 
+    background-color:rgba(0, 0, 255, 0.315) ; 
+    height: 370px;  
+}
+.contain{                           /*For making outer box in sign in and sign up*/ 
+    width: 480px;
+    margin-top:80px ;
+     margin-left: 500px;
+    border-radius: 25px; 
+    background-color: rgb(187, 211, 245) ; 
+    height: 110px;  
+}
+
+
+
+/*For main page*/
+
+.input-wrapper input[type=text] {    /* For search bar*/ 
+    padding: 6px;
+    margin-top: -2px;
+    width:500px;
+    font-size: 16px;
+    height: 35px;
+    text-align: center;
+    border-radius: 35px;
+}
+
+.searchbtn{
+    width:40px;
+    border-radius: 5px;
+    background-color: white;
+    height: 30px;
+}
+
+ .dropbtn {           
+    width: 100px;
+    border-radius: 75px;
+    margin-top:53px;                             /* Dropdown Button */
+    background-color: #aa1d04ab;
+    color: white;
+    padding: 7px;
+    font-size: 16px;
+    border: none;
+    margin-left: 60px;
+}
+ 
+ .dropdown {                         /* The container <div> - needed to position the dropdown content */
+    margin-left: 900px;
+    margin-top: -40px;
+    position: relative;             /*The element is positioned according to the normal flow of the document and then offset relative to itself*/
+    display: inline-block;          /* The next element will be on the same line if there is space*/
+  }
+  
+  .dropdown-content {                 /* Dropdown Content (Hidden by Default) */
+    display: none;
+    position: absolute;               /* It is positioned relative to its closest positioned ancestor, if any; otherwise, it is placed relative
+                                         to the initial containing block.*/ 
+    background-color: #f1f1f1;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+ 
+.dropdown-content a {                /* Links inside the dropdown */
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #aa1d04ab;}
+  
+.firstChapter                       /* For making box of first chapter in main and solutions page */
+  {
+  margin-top:15px;
+  padding: 4px;
+  display: block;
+  width:1000px;
+  height: 21px;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+   }
+   
+
+
+.para{                                  /*For username, password, email-id and class  in signin and signup */
+    text-align: left;
+    color: white;
+     }
+.id{                                    /*For emailid under para id class*/
+    margin-left: 22px;
+}
+.selectclass{                           /*For class under para selectclass*/
+    margin-left: 30px;
+}
+
+
+.btn{
+    background-color: #4b71d0;
+    background-color: #859dd8;
+
+    height: 35px;
+    width: 90px;
+    border-radius: 13px;
+    border: 2px rgb(49, 88, 37);
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    position: absolute;
+    left: 90%;
+   
+}
+
+
+.select{                          /* For select class on main page used for selecting the class 11,12,others*/
+    border: 10px  #dddddd;
+    border-radius: 7px;
+    width: 350px;
+    height: 20px;
+    margin-left: 34px;
+    margin-right: 1px;
+    padding-left: 135px;
+}
+
+
+.block{                                /*For making box on questions*/ 
+    display: block;
+    width: 1070px;
+    height: 75px;
+    font-size: 20px;
+    background-color: white;
+    text-align: justify;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.options{                              /*For  making box on options*/
+    display: block;
+    width: 1070px;
+    height: 37px;
+    border-radius:40px ;
+    font-size: 20px;
+    background-color: white;
+    padding-left:10px;
+    padding-top:13px;
+}
+
+.block1{                              /*For  making box on hint*/
+    display: block;
+    width: 1050px;
+    height: 200px;
+    font-size: 20px;
+    background-color: white;
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.solutionblock{                   /*For making box on solution*/
+    display: block;
+    width: 1070px;
+    height: 400px;
+    font-size: 14px;
+    background-color: white;
+    text-align: justify;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.hintButton{                  /*For hint, skip and save button*/
+    display: inline-block;
+    width: 100px;
+    height: 33px;
+    background-color: yellow;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-family: lato;
+    margin:280px 20px 20px 5px;
+    padding-top: 2px;
+}
+
+.skip-and-saveButton{                        /* For skip and save button on question page */
+      display: inline-block;
+      background-color: #317934fa; 
+      width:100px;
+      height:33px;
+      margin-left: 20px;
+      color: white;
+      font-family: lato;
+      border-radius: 10px;
+}
+
+
+.add-and-deleteButton{
+    display: inline-block;
+    background-color: #317934fa; 
+    margin-left: 10px;
+    margin-bottom: 2px;
+    width:100px;
+    color: white; 
+    font-family: lato;
+}
+
+
+
+/* header {
+    background-color: #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+  }
+  
+  .logo {
+    font-size: 28px;
+    font-weight: 700;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 40px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: #f44336;
+  } */
+
+
+  
+
+  header{
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 200px;
+    transition: 0.5s ease;
+    background-color:#5778cc ;
+    background-color: #4b71d0;
+  }
+  
+  header .brand{
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  
+  header .navigation{
+    position: relative;
+  }
+  
+  header .navigation .navigation-items a{
+    position: relative;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 30px;
+    transition: 0.3s ease;
+  }
+  
+  header .navigation .navigation-items a:before{
+    content: '';
+    position: absolute;
+    background: #fff;
+    width: 0;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease;
+  }
+  
+  header .navigation .navigation-items a:hover:before{
+    width: 100%;
+  }
+  

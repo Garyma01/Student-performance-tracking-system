@@ -1,0 +1,170 @@
+a{
+    text-decoration: none;
+}
+
+h1{
+margin-top: 50px;
+}
+
+h3{
+    color: white;
+    margin-left: 30px;
+}
+
+body{
+   background-color: rgba(0, 0, 0, 0.068); 
+}
+
+.box1{
+    display: inline-block;
+   
+}
+
+para{
+    align-items: left;
+}
+.BACK{                                  /*For back button*/
+    position: fixed;                  /* It is positioned relative to the initial containing block */
+    bottom: 10px;
+    left:10px;
+    width: 90px;
+    height: 35px;
+    font-size: 20px;
+    font-family: lato;
+    background-color:rgb(236, 115, 115); 
+    color: black;
+    box-shadow: 2px 2px lightgrey;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+}
+
+.container1{                                           /*For making outer box */ 
+    width: 470px;
+    margin-left:500px ;
+    border-radius: 15px; 
+    background-color: snow;
+    height: 300px; 
+    margin-top: 150px; 
+}
+
+.container2{                                           /*For making outer box */ 
+    width: 490px;
+    margin-left:470px ;
+    border-radius: 15px; 
+    background-color: snow;
+    height: 750px;  
+
+}
+.container6{                                           /*For making outer box */ 
+    width: 490px;
+    margin-left:470px ;
+    border-radius: 15px; 
+    background-color: snow;
+    height: 450px;  
+
+}
+
+
+.chapters                   /* For making box of each chapter except first chapter in main and solutions page */
+  {
+  margin-top:10px;
+  padding: 4px;
+  display: block;
+  width:1000px;
+  height: 21px;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  }
+
+
+.btn{
+    background-color: #04AA6D;
+    height: 35px;
+    width: 90px;
+   
+   
+    /* background-color: rgb(224, 71, 0); */
+    border-radius: 5px;
+    border: 2px rgb(40, 158, 4);
+    color: rgb(247, 247, 247);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    position: absolute;
+    left: 90%;
+   
+}
+
+.header1{
+width: 200px;
+
+}
+
+.header2{                                             /*for h2*/
+    margin-top: 1px;
+    color:rgba(156, 7, 156, 0.959);
+    /* font-size: 35px; */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.head2{                                               /*for admin panel heading*/
+    margin-left: 70px;
+    color: aliceblue;
+}
+.head2 hr{                                            /*for hr  of h2*/
+    margin-left: -50px;
+    width:300px; 
+}
+
+.main{                                                
+    text-align: center;
+    margin:4px;
+}
+.main input{                   /*for input boxes*/
+    width: 350px;
+    height: 30px;
+    box-sizing:border-box ;         /*The width and height properties include the content, padding, and border  */
+    font-size: large;
+    color: red;
+}
+.box{                                                   /*For black box in left side  */
+    width: 350px;
+    margin-top: -10px;
+    margin-left:-10px;
+    background-color:  rgba(0, 0, 0, 0.822) ; 
+    height:650px; 
+}
+.button1{                                         /*for add button*/
+   border: 3;
+   width: 190px;
+   height:30px;
+   margin-top: -10px;
+   background-color: red;
+   border-radius: 10px;
+   color: white;
+}
+
+.table{
+background-color:snow ;
+border: 1;
+width:100%;
+margin-top: 60px;
+margin-left:2px ;
+position: absolute;
+left:30%;
+}
+/*.table1{
+    background-color:snow ;
+    border: 1;
+    width:1510px;
+    margin-top: 60px;
+    /* margin-left:2px ; 
+ }*/
+.tablehead{
+    background-color:  rgb(36, 98, 185);
+    border-color: rgb(36, 98,185) ;
+}
